@@ -1,0 +1,29 @@
+{
+	"name": "ttcassessment",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha -r ts-node/register test/*.ts"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nullopt/TTCAssessment.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nullopt/TTCAssessment/issues"
+	},
+	"homepage": "https://github.com/nullopt/TTCAssessment#readme",
+	"devDependencies": {
+		"@types/chai": "^4.3.0",
+		"@types/expect": "^24.3.0",
+		"@types/mocha": "^9.1.0",
+		"chai": "^4.3.6",
+		"ts-mocha": "^9.0.2",
+		"tslint": "^6.1.3",
+		"typescript": "^4.6.2"
+	}
+}
